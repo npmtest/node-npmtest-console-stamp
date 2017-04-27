@@ -1,6 +1,6 @@
 # npmtest-console-stamp
 
-#### test coverage for  [console-stamp (v0.2.5)](https://github.com/starak/node-console-stamp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-console-stamp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-console-stamp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-console-stamp.svg)](https://travis-ci.org/npmtest/node-npmtest-console-stamp)
+#### basic test coverage for  [console-stamp (v0.2.5)](https://github.com/starak/node-console-stamp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-console-stamp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-console-stamp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-console-stamp.svg)](https://travis-ci.org/npmtest/node-npmtest-console-stamp)
 
 #### Patch NodeJS console methods in order to add timestamp information by pattern
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-console-stamp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-console-stamp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-console-stamp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-console-stamp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-console-stamp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-console-stamp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-console-stamp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-console-stamp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-console-stamp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-console-stamp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-console-stamp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-console-stamp/build/coverage.html/index.html)
 
@@ -106,7 +106,8 @@
         "url": "git+ssh://git@github.com/starak/node-console-stamp.git"
     },
     "scripts": {},
-    "version": "0.2.5"
+    "version": "0.2.5",
+    "bin": {}
 }
 ```
 
